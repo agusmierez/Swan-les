@@ -46,3 +46,63 @@ body {
 footer p {
     font-size: small;
 }
+
+/* MUSICA */
+
+.praseccionm .card-text {
+    text-align: center;
+    font-size: large;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /* vertical-align: middle; */
+}
+
+.psm2 {
+    background-color: #34343c;
+}   
+    .psm2 .card-body {
+        background-color: #34343c;
+    }
+
+    .psm2 .card-text {
+        padding-left: 70px;
+    }
+
+    .psm2 .col-md-6 {
+        background-color: #34343c;
+    }
+
+    .psm2 .card {
+        background-color: #34343c;
+    }
+
+/* AUDIOVISUALES */
+
+.praseccionm .card-title {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: xx-large;
+    /* vertical-align: middle; */
+}
+.praseccionm .card-text {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: large;
+    /* vertical-align: middle; */
+}
+
+.psav {
+    background-color: #34343c;
+}   
+    .psav .card {
+        background-color: #34343c;
+        border: 0;
+    }
