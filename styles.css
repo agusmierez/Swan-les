@@ -1,6 +1,6 @@
 body {
     background-color: #000000;
-    color: white;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .navbar {
@@ -11,10 +11,21 @@ body {
         width: 50px;
     }
 
+    .nav-item a {
+        color: rgba(255, 255, 255, 0.9);
+    }
+
 .card {
     background-color: #000000;
-    color: white;
+    color: rgba(255, 255, 255, 0.9);
 }
+
+    .praseccion a {
+        color: rgba(255, 255, 255, 0.9);
+    }
+        .praseccion a:hover {
+            color: #34343c;
+        }
 
 .img-thumbnail {
     height: 200px;
@@ -22,4 +33,16 @@ body {
     object-fit: cover;
     padding: 0;
     max-width: fit-content;
+}
+    /* .sdaseccion a:hover {
+        background-color: #34343c;
+    } */
+
+.sdaseccion h3 {
+    font-size: large;
+    margin-top: 10px;
+}
+
+footer p {
+    font-size: small;
 }
