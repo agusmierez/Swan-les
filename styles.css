@@ -95,3 +95,56 @@ footer p {
 .psav2 {
     text-align: center;
 }
+
+/* VIVOS - DIRECTOS */
+
+.vdf p {
+    
+}
+
+/* CONTACTO */
+
+.cps {
+
+    .elementos {
+        margin: 0px auto 10px auto;
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .elementos a {
+        color: white;
+        width: 50px;
+        font-size: 22px;
+    }
+    
+    .elementos i {
+        transition: .0.5s ease-in-out;
+    }
+    
+    .elementos .fa-facebook:hover {
+        color: #34343c;
+    }
+    
+    .elementos .fa-instagram:hover {
+        color: #34343c;
+    }
+    
+    .elementos .fa-tiktok:hover {
+        color: #34343c;
+    }
+    
+    .elementos .fa-youtube:hover {
+        color: #34343c;
+    }
+}
+
+.cf {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    background:#000000;
+}
