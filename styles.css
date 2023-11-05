@@ -104,6 +104,20 @@ footer p {
 
 /* CONTACTO */
 
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cpsimg {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
 .cps {
 
     .elementos {
