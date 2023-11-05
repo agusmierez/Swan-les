@@ -68,6 +68,7 @@ footer p {
 
     .psm2 .card-text {
         padding-left: 70px;
+        vertical-align:bottom;
     }
 
     .psm2 .col-md-6 {
@@ -80,29 +81,17 @@ footer p {
 
 /* AUDIOVISUALES */
 
-.praseccionm .card-title {
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    font-size: xx-large;
-    /* vertical-align: middle; */
-}
-.praseccionm .card-text {
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    font-size: large;
-    /* vertical-align: middle; */
-}
-
-.psav {
+.psav1 {
     background-color: #34343c;
-}   
-    .psav .card {
-        background-color: #34343c;
-        border: 0;
+}
+    .psav1 {
+        text-align: center;
     }
+
+    .psav1 {
+        text-align: center;
+    }
+
+.psav2 {
+    text-align: center;
+}
