@@ -9,6 +9,7 @@ body {
     .container-fluid img {
         height: 50px;
         width: 50px;
+        margin-left: 15px;
     }
 
     .nav-item a {
@@ -27,16 +28,48 @@ body {
             color: #34343c;
         }
 
+.colix {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* height: 100vh; */
+}
+
 .img-thumbnail {
     height: 200px;
     width: 200px;
     object-fit: cover;
     padding: 0;
     max-width: fit-content;
+    transition: all 500ms ease-out;
 }
-    /* .sdaseccion a:hover {
-        background-color: #34343c;
-    } */
+    .colix .capahover{
+        position: absolute;
+        top: 0;
+        width: 200px;
+        height: 100%;
+        background: rgba(52, 52, 60, 0.7);
+        transition: all 500ms ease-out;
+        opacity: 0;
+        visibility: hidden;
+        text-align: center;
+    }
+
+    .colix .capahover h3 {
+        margin-top: 90px;
+    }   
+
+    .colix .capahover a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .colix:hover > .capahover{
+        opacity: 1;
+        visibility: visible;
+    }
 
 .sdaseccion h3 {
     font-size: large;
@@ -49,11 +82,19 @@ footer p {
 
 /* MUSICA */
 
+.praseccion .card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .praseccionm .card-text {
     text-align: center;
     font-size: large;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 10%;
+    /* vertical-align: middle; */
 }
 
 .psm2 {
@@ -95,9 +136,7 @@ footer p {
 
 /* VIVOS - DIRECTOS */
 
-.vdf p {
-    
-}
+
 
 /* CONTACTO */
 
