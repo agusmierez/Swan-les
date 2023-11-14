@@ -146,6 +146,39 @@ footer p {
     text-align: center;
 }
 
+.praseccionm2 .pav {
+    font-size: larger;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.praseccionm .pav2 {
+    font-size: larger;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.praseccionm .pav22 {
+    font-size: larger;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
 /* VIVOS - DIRECTOS */
 
 
