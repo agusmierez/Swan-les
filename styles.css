@@ -4,7 +4,7 @@ body {
 }
 
 .navbar {
-    background-color: #34343c;
+    background-color: #020010;
 }
     .container-fluid img {
         height: 50px;
@@ -16,6 +16,10 @@ body {
         color: rgba(255, 255, 255, 0.9);
     }
 
+    .nav-item a:hover {
+        color: rgba(93, 87, 150, 0.7);
+    }
+
 .card {
     background-color: #000000;
     color: rgba(255, 255, 255, 0.9);
@@ -25,7 +29,7 @@ body {
         color: rgba(255, 255, 255, 0.9);
     }
         .praseccion a:hover {
-            color: #34343c;
+            color: #5d5797;
         }
 
 .colix {
@@ -51,7 +55,7 @@ body {
         top: 0;
         height: 100%;
         width: 200px;
-        background: rgba(52, 52, 60, 0.7);
+        background: rgba(93, 87, 150, 0.7);
         transition: all 500ms ease-out;
         opacity: 0;
         visibility: hidden;
