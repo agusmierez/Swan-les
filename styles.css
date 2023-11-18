@@ -7,8 +7,8 @@ body {
     background-color: #020010;
 }
     .container-fluid img {
-        height: 50px;
-        width: 50px;
+        height: 60px;
+        width: 60px;
         margin-left: 15px;
     }
 
@@ -135,7 +135,6 @@ footer p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 60px;
 }
 
 /* AUDIOVISUALES */
@@ -162,8 +161,8 @@ footer p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 30px;
-    padding-right: 20px;
+    padding-left: 20px;
+    padding-right: 40px;
 }
 
 .praseccionm .pav2 {
@@ -228,20 +227,28 @@ footer p {
     }
     
     .elementos .fa-facebook:hover {
-        color: #34343c;
+        color: rgb(93, 87, 150);
     }
     
     .elementos .fa-instagram:hover {
-        color: #34343c;
+        color: rgb(93, 87, 150);
     }
     
     .elementos .fa-tiktok:hover {
-        color: #34343c;
+        color: rgb(93, 87, 150);
     }
     
     .elementos .fa-youtube:hover {
-        color: #34343c;
+        color: rgb(93, 87, 150);
     }
+
+    .mailto {
+        color: white;
+    }
+
+        .mailto:hover {
+            color: rgb(93, 87, 150);
+        }
 }
 
 .cf {
