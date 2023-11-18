@@ -48,18 +48,19 @@ body {
     object-fit: cover;
     padding: 0;
     max-width: fit-content;
-    transition: all 500ms ease-out;
+    transition: all 5ms ease-out;
 }
-    .colix .capahover{
+    .colix .capahover {
         position: absolute;
         top: 0;
         height: 100%;
         width: 200px;
-        background: rgba(93, 87, 150, 0.7);
-        transition: all 500ms ease-out;
+        background: rgba(2, 0, 15, 0.7);
+        transition: all 5ms ease-out;
         opacity: 0;
         visibility: hidden;
         text-align: center;
+        border-radius: 5px;
     }
 
     .colix .capahover h3 {
@@ -70,6 +71,10 @@ body {
         text-decoration: none;
         color: white;
     }
+
+        .colix .capahover a:hover {
+            color: rgb(93, 87, 150);
+        }
 
     .colix:hover > .capahover{
         opacity: 1;
@@ -105,16 +110,16 @@ footer p {
 }
 
 .psm2 {
-    background-color: #34343c;
+    background-color: #020010;
     display: flex;
 }   
 
     .psm2 .col-md-6 {
-        background-color: #34343c;
+        background-color: #020010;
     }
 
     .psm2 .card {
-        background-color: #34343c;
+        background-color: #020010;
     }
 
 .praseccionm2 .ratio {
